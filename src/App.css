@@ -1,0 +1,80 @@
+body{
+    background-color: black!important;
+}
+
+nav {
+    height: 100%;
+}
+
+.navbar-img {
+    width: 40%;
+}
+
+.searchbar-container {
+    display: flex;
+    margin : 0px auto;
+}
+
+
+
+.searchbar input {
+    padding      : 5px;
+    border-radius: 10px;
+
+}
+
+.searchbar input:focus {
+    outline: none;
+
+}
+
+.searchbar-btn {
+    display: grid;
+}
+
+.searchbar-btn button {
+position: absolute;
+}
+
+.spinner-border {
+    width : 9rem !important;
+    height: 9rem !important;
+}
+
+.btn-heart {
+    font-size: 30px !important;
+}
+
+.container-img-pokemon {}
+
+.container-img-pokemon img {
+    background-image : url('./img/fondo-car.png');
+    background-repeat: no-repeat;
+    background-size  : 100% 100%;
+    width            : 91%;
+    border           : solid 3px #e7c30d !important;
+    border-radius    : 5px;
+}
+
+.card {
+    min-height       : 27 rem !important;
+    width            : 19 rem !important;
+    border           : 10px solid #e7c30d !important;
+    background-image : url('./img/card-bg.jpg') !important;
+    background-repeat: no-repeat;
+    background-size  : 100% 100%;
+}
+
+.card:hover {
+    box-shadow: 1px 2px 20px 7px #385aa1 !important
+}
+
+.card h5{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.heart-nav{
+    font-size: 40px;
+    color: red;
+}
